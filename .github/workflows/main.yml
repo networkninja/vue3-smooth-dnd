@@ -16,8 +16,9 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@networkninja'
       - name: Change to packages/lib directory
-        working-directory: packages/lib # Align this with the previous step
-        run: npm install
-      - run: npm publish
+        working-directory: packages/lib 
+        run: |
+          npm install
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
