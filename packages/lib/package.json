@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gilnd/vue3-smooth-dnd"
+    "url": "https://github.com/networkninja/vue3-smooth-dnd.git"
   },
   "keywords": [
     "Vue 3",
