@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-       - name: Create .npmrc
-         run: echo "${{ secrets.NPM_AUTH_TOKEN }}" | base64 --decode > .npmrc
+      - name: Create .npmrc
+        run: echo "${{ secrets.NPM_AUTH_TOKEN }}" | base64 --decode > .npmrc
       - uses: actions/setup-node@v2
         with:
           node-version: 16
