@@ -1,6 +1,6 @@
 {
   "name": "@networkninja/vue3-smooth-dnd",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "Vue 3 wrappers for smooth-dnd library",
   "author": "Gilbert Ndresaj",
   "license": "MIT",
@@ -32,13 +32,11 @@
     "build": "rollup -c",
     "build:watch": "rollup -c -w"
   },
-  "dependencies": {
-    "smooth-dnd": "github:networkninja/smooth-dnd#0.13.7"
-  },
   "peerDependencies": {
     "vue": "^3.0.11"
   },
   "devDependencies": {
+    "@networkninja/smooth-dnd": "^0.13.7",
     "rollup": "^2.43.0",
     "vue": "^3.0.11"
   },
