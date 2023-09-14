@@ -35,9 +35,6 @@
   "dependencies": {
     "smooth-dnd": "github:networkninja/smooth-dnd"
   },
-  "overrides": {
-    "smooth-dnd": "github:networkninja/smooth-dnd"
-  },
   "peerDependencies": {
     "vue": "^3.0.11"
   },
